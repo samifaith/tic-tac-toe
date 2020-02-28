@@ -10,7 +10,7 @@ h1{
 color: blue;
 }
 
-#main{
+table{
   border: black 2px solid;
   height: 500px;
   width: 500px;
@@ -18,10 +18,7 @@ color: blue;
   text-align: center;
 }
 
-.box{
-  max-width: 100%;
-  object-fit: cover; 
-}
+
 td{
   font-size: 10px;
   border: 1px solid black;
