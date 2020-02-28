@@ -2,43 +2,54 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <title>Tic Tac Toe</title>
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Delius+Unicase:700|Libre+Barcode+128+Text|Sedgwick+Ave+Display&display=swap" rel="stylesheet">
   </head>
   <body>
+    <h1>House Cass Tic Tac Toe</h1>
+    <h2>Miggie, Zikre, Chi, Sam, Kenneth, Shane</h2>
+    <section class="tableContainer">
+      <div class="scoreboard">
+      <h2>SCOREBOARD</h2>
+      <div id="status"></div>
+      <table>
+        <tbody class="scoreboard">
+          <tr>
+            <td id="player1">0</td>
+            <td id="player2">0</td>
+          </tr>
+        </tbody>
+        <tfoot class="scoreboard">
+          <tr>
+            <th>Player 1</th>
+            <th>Player 2</th>
+          </tr>
+        </tfoot>
+      </div>
+      <table id="main">
+        <tr>
+          <td class="box" id="box1"> </td>
+          <td class="box" id="box2"> </td>
+          <td class="box" id="box3"> </td>
+        </tr>
+        <tr>
+          <td class="box" id="box4"> </td>
+          <td class="box" id="box5"> </td>
+          <td class="box" id="box6"> </td>
+        </tr>
+        <tr>
+          <td class="box" id="box7"> </td>
+          <td class="box" id="box8"> </td>
+          <td class="box" id="box9"> </td>
+        </tr>
+      </table>
 
-    <h1> Tic Tac Toe ! </h1>
-    <h2> Group Name: House Cass [Miggie, Zikre, Chi, Sam, Kenneth, Shane]</h2>
-<section class="tableContainer">
-
-
-
-<table id="main">
-  <tr>
-    <td class="box" id="box0"> <p> </p> </td>
-    <td class="box" id="box1"> <p > </p> </td>
-    <td class="box" id="box2"> <p> </p> </td>
-
-  </tr>
-  <tr>
-    <td class="box" id="box3"> <p> </p> </td>
-    <td class="box" id="box4"> <p> </p> </td>
-    <td class="box" id="box5"> <p> </p> </td>
-
-  </tr>
-  <tr>
-    <td class="box" id="box6"> <p> </p> </td>
-    <td class="box" id="box7"> <p> </p> </td>
-    <td class="box" id="box8"> <p> </p> </td>
-
-  </tr>
-</table>
-
-<button type="button" name="reset">Reset</button>
-<button type="button" name="undo">Undo</button>
-
-</section>
+      <button type="button" id="reset">Reset</button>
+      <button type="button" id="undo">Undo</button>
+    </section>
     <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
